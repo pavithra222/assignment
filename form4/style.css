@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #76dee6;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 920px;
+
+  background-color: #3c8cc0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+  background-color: #fff;
+  position: relative;
+}
+
+
+ .main{
+  width:500px;
+  margin:auto;
+ }
+ form{
+  padding:10px;
+ }
+ #name{
+  width:100%;
+  height:100px;
+ }
+.name{
+  color:white;
+}
+ .firstname{
+  position: relative;
+  left:30px;
+  top:27px;
+  line-height:40px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:8px;
+ }
+.lastname{
+  position: relative;
+  left:150px;
+  top:-20px;
+  line-height:40px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:8px;
+  
+}
+.firstlabel{
+  position: relative;
+  color:black;
+  font-size:14px;
+  left:50px;
+  top:-50px;
+
+}
+.lastlabel{
+    position: relative;
+  color:black;
+  font-size:14px;
+  left:10px;
+  top:-50px;
+}
+.email{
+  position: relative;
+  left:38px;
+  top:-18px;
+  line-height:40px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:24px;
+  
+}
+.emaillabel{
+  position: relative;
+  color:black;
+  font-size:14px;
+  left:50px;
+  top:-91px;
+
+}
+ .password{
+  position: relative;
+  left:30px;
+  top:-43px;
+  line-height:40px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:8px;
+ }
+.conform_password{
+  position: relative;
+  left:150px;
+  top:-83px;
+  line-height:40px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:8px;
+  
+}
+.password_label{
+  position: relative;
+  color:black;
+  font-size:14px;
+  left:50px;
+  top:-122px;
+
+}
+.conform_label{
+    position: relative;
+  color:black;
+  font-size:14px;
+  left:10px;
+  top:-122px;
+}
+ .box{
+  position: relative;
+  left:-320px;
+  top:-23px;
+  line-height:30px;
+  border-radius:15px;
+  padding: 0 22px;
+  font-size:16px;
+ }
+
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: black;
+  border: 2px solid black;
+  font-size: 0.95rem;
+  color: #1abc9c;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  left:90px;
+  top:50px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+
+.contact-info {
+  padding: 2.3rem 2.2rem;
+  position: relative;
+}
+
+.contact-info .title {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  margin: 1.5rem 0 2rem 0;
+}
+
+ .btn1{
+    position: relative;
+top:20px;
+
+  width:200px;
+  height:50px;
+  border-radius: 5px;
+  background-color:blue;
+  border:2px solid red
+  transition: background-color 2s;
+  color:black;
+ }
+
+ .btn{
+    position: relative;
+top:20px;
+
+  width:200px;
+  height:50px;
+  border-radius: 5px;
+  background-color:#fff;
+  border:2px solid red
+  transition: background-color 2s;
+  color:black;
+ }
+
+@media (max-width: 850px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+
+
+
+
+  .text {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+ 
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  
+
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  .text,
+  .information p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+ 
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
+

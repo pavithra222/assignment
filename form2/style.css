@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#9cbeeb;
+
+}
+.container{
+  width:80%;
+  margin:50px auto;
+}
+.contact-box{
+  background:#fff;
+  display:flex;
+}
+.contact-left{
+  flex-basis:60%;
+  padding:40px 60px;
+}
+.contact-right{
+  flex-basis:60%;
+  padding:40px 60px;
+  background:#4937d4;
+  color:white;
+
+  
+}
+.input-row{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+ 
+}
+
+.input-row .input-group{
+  flex-basis:45%;
+  
+}
+input{
+  width:100%;
+  border:none;
+  border-bottom:1px solid #ccc;
+  outline:none;
+  passing-bottom:5px;
+ padding:20px;
+ color:black;
+ 
+}
+.left{
+    width:100%;
+  border:none;
+  border-bottom:1px solid #fff;
+  outline:none;
+  passing-bottom:5px;
+ padding:20px;
+ background:#4937d4;
+ 
+}
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  left:90px;
+  top:50px;
+      margin-top: 20px;
+      margin-left: 120px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: white;
+}

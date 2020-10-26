@@ -1,0 +1,292 @@
+ *{
+ 	margin:0;
+ 	padding:0;
+
+ }
+ body{
+ 	background-image:url(images/f1.jpg);
+ 	background-position:center;
+ 	background-size:cover;
+ 	font-family:sans-serif;
+ 	margin-top:50px;
+ }
+ .regform{
+ 	color:#f514c0;
+ 	text-align:center;
+ 	padding:5px 0px 10px 0px;
+ 	margin:auto;
+ 	padding-top:90px;
+ }
+ .main{
+ 	width:800px;
+ 	margin:auto;
+ }
+ form{
+ 	padding:10px;
+ }
+ #name{
+ 	width:100%;
+ 	height:100px;
+ }
+.name{
+	color:white;
+}
+ .firstname{
+ 	position: relative;
+ 	left:200px;
+ 	top:-37px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+.lastname{
+	position: relative;
+ 	left:400px;
+ 	top:-80px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ 	color:#555;
+}
+.firstlabel{
+	position: relative;
+	color:blue;
+	font-size:14px;
+	left:203px;
+	top:-122px;
+
+}
+.lastlabel{
+		position: relative;
+	color:blue;
+	font-size:14px;
+	left:175px;
+	top:-122px;
+}
+
+
+
+
+ .gender{
+ 	position: relative;
+ 	left:200px;
+ 	top:-100px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+.email{
+	position: relative;
+ 	left:410px;
+top:-150px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ 	color:#555;
+}
+.genderlabel{
+	position: relative;
+	color:blue;
+	font-size:14px;
+	left:203px;
+	top:-182px;
+
+}
+.emaillabel{
+		position: relative;
+	color:blue;
+	font-size:14px;
+	left:185px;
+	top:-182px;
+}
+
+ 
+ .password{
+ 	position: relative;
+ 	left:200px;
+ 	top:-157px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+.conform_password{
+	position: relative;
+ 	left:400px;
+top:-200px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ 	color:#555;
+}
+.passwordlabel{
+	position: relative;
+	color:blue;
+	font-size:14px;
+	left:203px;
+	top:-240px;
+
+}
+.conform_label{
+		position: relative;
+	color:blue;
+	font-size:14px;
+	left:175px;
+	top:-240px;
+}
+
+ .DOB{
+ 	position: relative;
+ 	left:200px;
+ 	top:-210px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+.mobile{
+	position: relative;
+ 	left:425px;
+top:-260px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ 	color:#555;
+}
+.doblabel{
+	position: relative;
+	color:blue;
+	font-size:14px;
+	left:203px;
+	top:-295px;
+
+}
+.mobilelabel{
+		position: relative;
+	color:blue;
+	font-size:14px;
+	left:205px;
+	top:-295px;
+}
+
+ .box{
+ 	position: relative;
+ 	left:-100px;
+ 	top:-200px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+ .btn{
+ 	 	position: relative;
+ 	left:-290px;
+top:-140px;
+ 	width:100px;
+ 	height:50px;
+  border-radius: 5px;
+ 	background-color:#801513;
+ 	
+ 	transition: background-color 2s;
+ 	color:yellow;
+ }
+ .loginpage{
+ 	position: relative;
+ 	left:195px;
+ 	top:-142px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+
+ .error
+{
+	color:red;
+}
+.sucess
+{
+	color:green;
+}
+@media screen and (max-width:460px){
+	
+ .regform{
+ 	color:#f514c0;
+ 	text-align:center;
+ 	padding:5px 0px 10px 0px;
+ 	margin:auto;
+ 	padding-top:10px;
+ }
+
+ .main{
+ 	width:800px;
+ 	margin:auto;
+ }
+ form{
+ 	padding:10px;
+ }
+ #name{
+ 	width:100%;
+ 	height:100px;
+ }
+.name{
+	color:white;
+}
+ .firstname{
+ 	position: relative;
+ 	left:200px;
+ 	top:-37px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ }
+.lastname{
+	position: relative;
+ 	left:400px;
+ 	top:-80px;
+ 	line-height:40px;
+ 	border-radius:15px;
+ 	padding: 0 22px;
+ 	font-size:16px;
+ 	color:#555;
+}
+.firstlabel{
+	position: relative;
+	color:blue;
+	font-size:14px;
+	left:203px;
+	top:-122px;
+
+}
+.lastlabel{
+		position: relative;
+	color:blue;
+	font-size:14px;
+	left:175px;
+	top:-122px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

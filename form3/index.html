@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+  </head>
+  <body>
+  <div class="container">
+<div class="login-box">
+  <h3>Booking place for your dinner!</h3>
+  <div class="textbox">
+    
+    <input type="text" placeholder="Your name" required>
+  </div>
+
+  <div class="textbox">
+    
+    <input type="number" placeholder="phone number" required>
+  </div>
+   <div class="textbox">
+    
+
+<select name="time" id="time" required>
+  <option value="">time</option>
+  <option value="">11:30am</option>
+  <option value="">12am</option>
+  <option value="">1am</option>
+</select>
+  </div>
+   <div class="textbox">
+    
+   <select name="food" id="food" required>
+  <option value="">food</option>
+  <option value="">veg briyani</option>
+  <option value="">briyani</option>
+  <option value="">non-veg </option>
+</select>
+  </div>
+    
+    select your Dining Space
+  <div class="buttons">
+ <button class="button button5">2</button>
+
+  <button class="button button5">6</button>
+   <button class="button button5">8</button>
+    <button class="button button5">10</button>
+     <div class="wrapper" align="center">  
+                <br />  
+                <label>  
+                     
+                     <div class="switch"></div>  
+                </label>  
+                <br />  
+                
+           </div>  
+  </div>
+
+<button class="btn" id="register" onclick="register()">Register</button>
+</div>
+</div>
+
+<script>  
+           $(document).ready(function(){  
+                $('.switch').click(function(){  
+                     $(this).toggleClass("switchOn");  
+                });  
+           });  
+           </script>  
+
+  </body>
+</html>
